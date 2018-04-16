@@ -37,7 +37,7 @@
         visual viewport-代表浏览器可视区域的大小，可通过window.innerWidth获取，部分浏览器不可用；
         ideal viewport-移动端理想视口，用户不需要缩放或者出现横向滚动条。   
     ```    
-    c.rem   
+    *c.rem*      
 2. **工作原理**  
     *a.利用viewport和设备像素比调整基准像素*    
     *b.利用px2rem自动转换css单位*   

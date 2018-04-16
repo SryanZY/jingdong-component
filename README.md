@@ -31,8 +31,8 @@
         设备像素：硬件上的物理像素点，即1个像素在硬件上到底是多少
         设备像素比：物理像素  /  CSS像素
     ```   
-    b.viewport
-    c.rem
+    b.viewport     
+    c.rem   
 2. 工作原理  
-    a.利用viewport和设备像素比调整基准像素
+    a.利用viewport和设备像素比调整基准像素    
     b.利用px2rem自动转换css单位

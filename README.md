@@ -32,7 +32,20 @@
         设备像素比：物理像素  /  CSS像素
     ```   
     b.viewport     
+    ```   
+        layout viewport-浏览器默认的viewport，可以通过document.documentElement.clientWidth获取；
+        visual viewport-代表浏览器可视区域的大小，可通过window.innerWidth获取，部分浏览器不可用；
+        ideal viewport-移动端理想视口，用户不需要缩放或者出现横向滚动条。   
+    ```    
     c.rem   
 2. 工作原理  
     a.利用viewport和设备像素比调整基准像素    
-    b.利用px2rem自动转换css单位
+    b.利用px2rem自动转换css单位   
+
+### history原理   
+```    
+通过window.histoty.pushState向历史记录中添加脚步信息；
+当且仅当使用前进/后退的时候出发onpopstate事件。
+通过history的事件和方法构成了SPA的基本原理   
+```   
+

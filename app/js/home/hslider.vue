@@ -28,7 +28,7 @@ export default {
            },
            {
                href: "home",
-               src: "//img12.360buyimg.com/jrpmobile/jfs/t17743/102/1419735038/76755/d0974387/5ac97f30N0b690c0c.jpg?width=750&height=320"
+               src: "//img12.360buyimg.com/jrpmobile/jfs/t17167/299/1666167393/51028/aa9d1c3a/5ad49788Nf2c4e8ed.jpg?width=750&height=320"
            },
            {
                href: "home",
@@ -78,8 +78,8 @@ export default {
         @include list(row);
         justify-content: space-around;
         background: #fff;
-        padding-top: 40px;
         padding-bottom: 20px;
+        padding-top: 40px;
         a {
             text-decoration: none;
         }

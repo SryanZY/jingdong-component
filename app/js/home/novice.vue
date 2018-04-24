@@ -1,5 +1,5 @@
 <template>
-  <Panel :title="title" :class="$style.panel">
+  <Panel :title="title" :class="$style.panelContainer">
       <section :class="$style.content">
           <div :class="$style.item">
               <h4>下载APP <span :class="$style.red">送888元礼包</span></h4>
@@ -40,8 +40,7 @@ export default {
 </script>
 <style lang="scss" module>
     @import "../../css/element.scss";
-    .panel {
-        @include panel;
+    .panelContainer {
         >h4 {
             border-bottom: 1px solid #ddd;
         }

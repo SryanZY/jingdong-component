@@ -1,8 +1,16 @@
 <template lang="html">
     <div>
-        <Header></Header>
-        <Slider></Slider>
-        <Novice></Novice>
+        <div :class="$style.container">
+          <Header></Header>
+          <Slider></Slider>
+          <Novice></Novice>
+          <Borrow></Borrow>
+          <Money></Money>
+          <Product></Product>
+          <Life></Life>
+          <Footer></Footer>
+          <Navbar></Navbar>
+        </div>
     </div>
 </template>
 
@@ -10,6 +18,12 @@
 import Header from "../public/header";
 import Slider from "./hslider";
 import Novice from "./novice";
+import Borrow from "./borrow";
+import Money from "./money";
+import Product from "./newProduct";
+import Life from "./life";
+import Footer from "../public/footer";
+import Navbar from "../public/navbar";
 export default {
   data () {
     return {
@@ -19,11 +33,21 @@ export default {
   components: {
     Header,
     Slider,
-    Novice
+    Novice,
+    Borrow,
+    Money,
+    Product,
+    Life,
+    Footer,
+    Navbar
   }
 }
 </script>
 
 <style lang="scss" module>
-  
+  .container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
 </style>

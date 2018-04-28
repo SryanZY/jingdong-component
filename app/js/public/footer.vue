@@ -29,9 +29,6 @@
 <script>
 import Panel from "../core/panel";
 export default {
-    data () {
-        return {}
-    },
     components: {
         Panel
     }

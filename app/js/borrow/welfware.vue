@@ -1,29 +1,29 @@
 <template>
-    <Panel title="理财精选" :class="$style.panelContainer">
+    <Panel title="白条福利" :class="$style.panelContainer">
         <section :class="$style.content">
             <div :class="$style.item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t12799/50/704102454/5247/19eac80a/5a4f2622Nc4aca701.png?width=90&height=90" alt="icon">
                 <div>
-                    <h4>月度理财</h4>
-                    <p>预期年化收益率4.56%</p>
+                    <h4>开通白条</h4>
+                    <p>送188元礼包</p>
                 </div>
-                <em>去赚钱 >></em>
+                <em>立即开通 >></em>
             </div>
             <div :class="$style.item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t16033/196/1306232362/4705/4c678227/5a4f265bN66ef5ae8.png?width=90&height=90" alt="icon">
                 <div>
-                    <h4>季度理财</h4>
-                    <p>历史预期年化收益率5.50%</p>
+                    <h4>白条闪付</h4>
+                    <p>新手享158元礼包</p>
                 </div>
-                <em>去赚钱 >></em>
+                <em>随机立减 >></em>
             </div>
             <div :class="$style.item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t16033/196/1306232362/4705/4c678227/5a4f265bN66ef5ae8.png?width=90&height=90" alt="icon">
                 <div>
-                    <h4>一年理财</h4>
-                    <p>预期年化收益率6.56%</p>
+                    <h4>白条提额</h4>
+                    <p>金融提额礼包</p>
                 </div>
-                <em>去赚钱 >></em>
+                <em>去提额 >></em>
             </div>
         </section>
     </Panel>
@@ -72,9 +72,9 @@ export default {
                     font-size: 32px;
                     color: #333;
                     line-height: 1.8;
-                    width: 344px;
+                    width: 304px;
                     p {
-                        color: #ff3232;
+                        color: #999;
                         font-size: 24px;
                         line-height: 1.1;
                         white-space: nowrap;
@@ -85,7 +85,7 @@ export default {
                 >em {
                     font-size: 28px;
                     font-weight: 400;
-                    color:#FFD700;
+                    color:#FF4500;
                 }
             }
         }

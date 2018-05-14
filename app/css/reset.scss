@@ -49,3 +49,19 @@ hr {
     background-color: #000;
     height: 1px
 }
+/*icon图标样式*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../js/fonts/icomoon.eot?c982ig');
+    src: url('../js/fonts/icomoon.eot?c982ig#iefix') format('embedded-opentype'), url('../js/fonts/icomoon.ttf?c982ig') format('truetype'), url('../js/fonts/icomoon.woff?c982ig') format('woff'), url('../js/fonts/icomoon.svg?c982ig#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*路由激活时的样式显示*/
+.activeTab {
+    p, span {
+        color: rgb(240, 20, 20)!important;
+        font-weight: 500;
+    }
+}

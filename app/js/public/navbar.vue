@@ -3,31 +3,31 @@
         <ul :class="$style.content">
             <li>
                 <router-link :to="{ name: 'home' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t17587/158/1300523690/1908/eabacaac/5ac4850bNdf876dd8.png?width=60&height=60" alt="首页">
+                    <span :class="$style.iconHome2"></span>
                     <p>首页</p>
                 </router-link>
             </li>
             <li>
                 <router-link :to="{ name: 'money' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t7690/252/3621724688/1715/757a3ca1/59e9d81bN27304850.png?width=60&height=60" alt="赚钱">
+                    <span :class="$style.iconRadioChecked2"></span>
                     <p>赚钱</p>
                 </router-link>
             </li>
             <li>
                 <router-link :to="{ name: 'borrow' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t11653/76/201131398/1192/bf1b2852/59e9d7f3N5f691137.png?width=60&height=60" alt="借钱">
+                    <span :class="$style.iconCoinYen"></span>
                     <p>借钱</p>
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'home' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t19729/201/1027312338/1395/95cecd48/5ab85d0eN01f81011.png?width=56&height=56" alt="省钱">
+                <router-link :to="{ name: 'raise' }">
+                    <span :class="$style.iconNewspaper"></span>
                     <p>众筹</p>
                 </router-link>
             </li>
             <li>
                 <router-link :to="{ name: 'home' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t10897/141/1894216742/2046/ad0e8dc1/59e9d7feNaa5dd2fd.png?width=60&height=60" alt="金融会员">
+                    <span :class="$style.iconUser"></span>
                     <p>金融会员</p>
                 </router-link>
             </li>
@@ -66,11 +66,45 @@ export default {
                 a {
                     text-decoration: none;
                 }
-                img {
+                span {
                     display: inline-block;
                     margin: 12px auto 6px;
-                    height: 44px;
                     width: 44px;
+                    height: 44px;
+                    color: #999;
+                    font-family: 'icomoon' !important;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+                .icon-home2 {
+                    &:before {
+                        content: "\e901";
+                    }
+                }
+                .icon-newspaper {
+                    &:before {
+                        content: "\e904";
+                    }
+                }
+                .icon-coin-yen {
+                    &:before {
+                        content: "\e93e";
+                    }
+                }
+                .icon-user {
+                    &:before {
+                        content: "\e971";
+                    }
+                }
+                .icon-radio-checked2 {
+                    &:before {
+                        content: "\ea55";
+                    }
                 }
                 p {
                     font-size: 22px;

@@ -19,40 +19,40 @@ export default {
     return {
        items: [
            {
-               href: "home",
+               href: "download",
                src: "//img12.360buyimg.com/jrpmobile/jfs/t17743/102/1419735038/76755/d0974387/5ac97f30N0b690c0c.jpg?width=750&height=320"
            },
            {
-               href: "home",
+               href: "download",
                src: "//img12.360buyimg.com/jrpmobile/jfs/t19750/241/1705646050/49372/ef55bcd2/5ad497a9Ndeea8dff.jpg?width=750&height=320"
            },
            {
-               href: "home",
+               href: "download",
                src: "//img12.360buyimg.com/jrpmobile/jfs/t17167/299/1666167393/51028/aa9d1c3a/5ad49788Nf2c4e8ed.jpg?width=750&height=320"
            },
            {
-               href: "home",
+               href: "download",
                src: "//img12.360buyimg.com/jrpmobile/jfs/t19639/92/1735466487/55081/50c0b4d6/5ad49774N67963a9d.jpg?width=750&height=320"
            }
        ],
        enters: [
            {
-               href: "home",
+               href: "download",
                img: "//img12.360buyimg.com/jrpmobile/jfs/t3991/64/2521945388/12110/93c0139/58d1e462Ncf294123.png?width=132&height=132",
                title: "优惠券"
            },
            {
-               href: "home",
+               href: "download",
                img: "//img12.360buyimg.com/jrpmobile/jfs/t5590/252/875247023/17343/946aa72c/59224650N0f7ffc92.png?width=132&height=132",
                title: "领红包"
            },
            {
-               href: "home",
+               href: "download",
                img: "//img12.360buyimg.com/jrpmobile/jfs/t4393/329/2180608902/13217/c88c0cec/58ec9dcdN1534e2d7.png?width=132&height=132",
                title: "抢钢镚"
            },
            {
-               href: "home",
+               href: "download",
                img: "//img12.360buyimg.com/jrpmobile/jfs/t5488/298/1036263348/12073/b4f4de97/590ac8e8Ne9def22e.png?width=135&height=135",
                title: "白条提额"
            }

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server --open",
-    "build": "webpack --env.production"
+    "build": "webpack --progress --env.production"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "px2rem-loader": "^0.1.7",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
     "url-loader": "^1.0.1",
     "vue": "^2.5.9",
     "vue-awesome-swiper": "^3.1.3",

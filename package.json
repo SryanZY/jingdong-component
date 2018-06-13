@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --open --host 192.168.114.104",
     "build": "webpack --progress --env.production"
   },
   "repository": {
@@ -31,7 +31,7 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.0",
     "px2rem-loader": "^0.1.7",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
